@@ -1,0 +1,428 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f7f7;
+ }
+
+
+header {
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.logo-header {
+  width: 400px;
+}
+
+.box-nav2 {
+  position: absolute;
+  right: 50px;
+  top: 15px;
+}
+
+.box-nav3 {
+  position: absolute;
+  right: 1200px;
+  top: 10px;
+}
+
+.box-usuaria {
+  height: 45%;
+  width: 45%;
+  border-radius: 50%;
+}
+
+h1{
+  font-size: 15px;
+  color: #000000;
+}
+.out {
+  background-color: #FFE521;
+  border-radius: 19px;
+  color: #000;
+  padding:10px 18px;
+  text-align: center;
+  width: 80px;
+  margin-top: 1em;
+}
+
+.out a {
+  color: black;
+  text-decoration: none;
+}
+
+.out a:hover {
+  color: #FF009E;
+}
+
+.box-filter {
+  background-color: black;
+  color: #ffffff;
+  box-shadow: 0px 5px 4px #c4c4c4;
+}
+
+.select-filter {
+ margin-left: 100px;
+ padding: 20px 0;
+}
+
+#promo-filter {
+font-size: 1.5em;
+background-color: #4C4743;
+border: 2px solid #FFE521;
+border-radius: 3px;
+color: #ffffff;
+font-weight: 300;
+font-size: 1.2em;
+padding: 0.25em;
+}
+
+#promo-filter:hover {
+ background-color: #FFE521;
+ color: #4C4743;
+ font-weight: 400;
+}
+
+#promo-filter:focus{
+ outline: none;
+}
+
+#promo-filter option {
+ background-color: #4C4743;
+ color: #ffffff;
+ font-weight: 300;
+}
+
+#promo-filter option:focus {
+  outline: none;
+}
+
+.tabs {
+  margin-left: 100px;
+  padding-bottom: 15px;
+  font-weight: 300;
+}
+
+.tabs li {
+  display: inline-block;
+  font-size: 1.3em;
+  border-right: 2px solid #FFE521;
+  padding-right: 1em;
+  cursor: pointer;
+}
+
+.tabs li:hover {
+  color: #FFE521;
+}
+
+.tabs li:nth-child(2) {
+  margin: 0 20px;
+}
+
+.container-graphics {
+  overflow: auto;
+}
+
+.big-graphic {
+  background-color: #fff;
+  /*height: 500px;*/
+  margin: 30px auto;
+  width: 500px;
+  box-shadow: 4px 4px 4px #c4c4c4;
+  display: line-block;
+}
+
+#graphicImg {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.big-graphic span {
+  display: inline-block;
+  font-size: 1.5em;
+  font-weight: 600;
+  padding: 20px;
+}
+
+.big-graphic .box1, .box2 {
+  background-color: #FFE521;
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  vertical-align: top;
+  width: 180px;
+  height: 150px;
+  padding: 0.8em;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #aaa8a8;
+}
+
+.select-skills {
+  border: none;
+  border-bottom: 1px solid #FFE521;
+  display: inline-block;
+  font-size: 1.1em;
+  padding: 0.4em;
+  border-radius: 3px;
+  font-weight: 300;
+}
+
+.select-skills:hover {
+  background-color: #56F89A;
+  color: #000000;
+}
+
+.small-graphic {
+  background-color: #fff;
+  float: left;
+  height: 540px;
+  margin: 15px auto;
+  vertical-align: top;
+  width: 32%;
+  box-shadow: 4px 4px 4px #c4c4c4;
+  margin-right: 1%;
+  overflow: hidden;
+}
+
+.graphic {
+  margin-top: 150px;
+}
+
+.graphic img {
+  padding-left: 1em;
+  padding-bottom: 0.8em;
+}
+
+.small-graphic span {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px;
+}
+
+.container-small-boxes {
+  padding: 1em;
+}
+.small-graphic-boxes {
+  background-color: #FFE521;
+  float: left;
+  text-align: center;
+  vertical-align: top;
+  width: 40%;
+  height: 150px;
+  padding: 0.8em;
+  border-radius: 3px;
+  box-shadow: 2px 2px 2px #aaa8a8;
+  margin-right: 1em;
+}
+
+.textDate {
+  font-size: 2.4em;
+  font-weight: 300;
+  border-bottom: 1px solid #FF009E;
+  width: 2.7em;
+  height: 1.2em;
+}
+
+#dropout-percent {
+  color: red;
+}
+
+.texTbox {
+  font-size: .8em;
+  padding-top: 1em;
+}
+
+.number-boxes {
+  font-size: 3.5em;
+  font-weight: 300;
+  border-bottom: 1px solid #ffffff;
+}
+
+.menu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+  background-color: rgba(43, 43, 43, 0.98);
+  color: #fff;
+}
+
+.menu .user {
+  padding-left: 1em;
+}
+
+.user .welcome {
+  font-weight: 300;
+  font-size: 1em;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.menu .user hr {
+  width: 70%;
+  border: 0.7px solid #FFE521;
+}
+
+.menu figure {
+  display: inline-block;
+  margin-top: 1.5em;
+  margin-bottom:1.5em;
+}
+
+.photo {
+  background-image: url(../assets/images/ale.png);
+  background-size: cover;
+  width: 5em;
+  height: 5em;
+  border-radius: 50%;
+  padding: 0.1em;
+  border: 2px solid #FFE521;
+  display: inline-block;
+}
+
+#user-information {
+  vertical-align: top;
+  font-size: 0.8em;
+  line-height: 2em;
+}
+
+#user-information p:last-child {
+  color: #FFE521;
+}
+
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.closebtn:hover {
+  color: #FFE521;
+}
+
+.user div {
+  display: inline-block;
+  margin: 20px 10px;
+}
+
+.user div i {
+  color: #FFE521;
+}
+
+.setting {
+  padding: 20px;
+  border-bottom: 0.3px solid #fff;
+  border-top: 0.3px solid #fff;
+}
+
+.setting a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.setting:hover {
+  background-color: #FFE521;
+}
+
+.show {
+  display:block;
+}
+
+.hide {
+  display: none;
+}
+
+.container-students {
+  background: #f5eded;
+  width: 90%;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 1em;
+}
+
+.specialization {
+  float: left;
+  vertical-align: top;
+  background-color: #ffffff;
+  width: 30%;
+  padding: 1em;
+  box-shadow: 2px 2px 2px #aaa8a8;
+}
+
+.specialization h4 {
+  font-weight: 700;
+  margin-bottom: 1em;
+  font-size: 1.2em;
+  color: #4C4743;
+}
+
+.student-hide {
+  float: right;
+  width: 69%;
+}
+
+.img-student {
+  float: left;
+  width: 25%;
+  height: 8em;
+}
+
+.name-student {
+  float: left;
+  vertical-align: top;
+  width: 35%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.2em;
+  color: #4C4743;
+}
+
+.profile-student {
+  margin-bottom: 2em;
+  background-color: #ffffff;
+  padding: 1em;
+  overflow: auto;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px #aaa8a8;
+}
+
+.box-tech {
+  background-color: #56F89A;
+  float: left;
+  vertical-align: center;
+  height: 5em;
+  margin-right: 2%;
+  width: 19%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 1px 2px 1px #949292;
+}
+
+.box-life {
+  background-color: #56F89A;
+  float: left;
+  vertical-align: center;
+  height: 5em;
+  width: 19%;
+  border-radius: 4px;
+  color: #000000;
+  text-align: center;
+  font-weight: 500;
+  box-shadow: 1px 2px 1px #949292;
+}
